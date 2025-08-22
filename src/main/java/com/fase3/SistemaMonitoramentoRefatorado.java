@@ -22,5 +22,8 @@ public class SistemaMonitoramentoRefatorado {
     private void executarColeta(Sensor s) {
         s.coletar();
     }
+    public List<Sensor> getSensores() {
+        return sensores; 
+    }
 
 }

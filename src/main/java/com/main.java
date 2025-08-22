@@ -2,6 +2,7 @@ package main.java.com;
 
 import main.java.com.fase1.sistemaMonitoramento;
 import main.java.com.fase3.SistemaMonitoramentoRefatorado;
+import main.java.com.fase3.SalaFacade;
 
 public class main {
     public static void main(String[] args) {
@@ -17,12 +18,15 @@ public class main {
 
         System.out.println("\n===== FASE 3 - Sistema Refatorado =====");
         SistemaMonitoramentoRefatorado sistema3 = new SistemaMonitoramentoRefatorado();
+        SalaFacade sala = new SalaFacade();
+        sala.cadastrarSensor("temperatura");
+        sala.cadastrarSensor("presenca");
+        sala.cadastrarSensor("luminosidade");
 
-        sistema3.cadastrarSensor("temperatura");
-        sistema3.cadastrarSensor("presenca");
-        sistema3.cadastrarSensor("luminosidade");
+        sala.coletarDados();
+        sala.gerarRelatorio();
 
-        sistema3.coletarDados();
+
     }
 }
 
