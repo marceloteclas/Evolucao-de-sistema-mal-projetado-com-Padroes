@@ -1,0 +1,1 @@
+# Evolu-o-de-um-sistema-mal-projetado-com-Padr-es
