@@ -16,4 +16,12 @@ public class SalaFacade {
     public void gerarRelatorio() {
         relatorio.gerar(sistema.getSensores());
     }
+
+    public void addObserver(Observer observer) {
+        sistema.addObserver(observer);
+    }
+
+    public void removeObserver(Observer observer) {
+        sistema.removeObserver(observer);
+    }
 }
