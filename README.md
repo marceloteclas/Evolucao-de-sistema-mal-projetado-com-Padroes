@@ -23,7 +23,7 @@
     </td>
     <td align="center">
       <img src="https://avatars.githubusercontent.com/u/129909472?v=4" width="100px;" alt="Foto da Integrante Franklin"/><br />
-      <sub><b><a href="[https://github.com/marceloteclas](https://github.com/FranklinFelixADS)">Franklin Felix</a></b></sub>
+      <sub><b><a href="https://github.com/FranklinFelixADS">Franklin Felix</a></b></sub>
     </td>
 
   </tr>
