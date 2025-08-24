@@ -66,11 +66,13 @@
 ## 👨‍💻Como Executar
 1. Clone este repositório:
    ```bash
-   git clone <gh repo clone marceloteclas/Evolucao-de-sistema-mal-projetado-com-Padroes>
+   git clone https://github.com/marceloteclas/Evolucao-de-sistema-mal-projetado-com-Padroes.git
    ```
 2. Compile o código:
+   
    javac src/main/java/com/**/*.java
  
-3. Rode o Main:
+4. Rode o Main:
+   
    java src/main/java/com/Main
    
